@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap');
+
+.thai-font {
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.1);
+}
+
+.action-button {
+    transition: all 0.3s ease;
+}
+
+.action-button:hover {
+    transform: scale(1.05);
+}
+
+/* Optional animation if you want fade-in */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+    animation: fadeIn 0.5s ease forwards;
+}
